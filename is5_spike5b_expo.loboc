@@ -1,0 +1,15 @@
+// ISEQ5: Exponent operator (**)
+//tlc type: run
+//tlc case: 4=2,2
+//tlc case: 1=1,100
+//tlc case: -1=-1,99
+//tlc case: 1=-1,100
+//tlc case: 243=3,5
+//tlc case: 356=2,8
+//tlc case: -256=-4,4
+
+
+unsigned a;
+unsigned b;
+
+a ** b;
