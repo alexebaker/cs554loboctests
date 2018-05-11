@@ -1,15 +1,25 @@
 // ISEQ5: Mod operator (%)
 //tlc type: run
-//tlc case: 11=27,16
-//tlc case: 0=30,3
-//tlc case: 2=35,3
-//tlc case: 2=5,3
-//tlc case: 3=-12,5
-//tlc case: 2=12,5
-//tlc case: 46=-11,57
-//tlc case: 11=11,57
+//tlc case: 11=27,16,27,16,t
+//tlc case: 11=27,16,27,16,f
+//tlc case: 0=30,3,30,3,t
+//tlc case: 0=30,3,30,3,f
+//tlc case: 2=35,3,35,3,t
+//tlc case: 2=35,3,35,3,f
+//tlc case: 2=5,3,5,3,t
+//tlc case: 2=5,3,5,3,f
+//tlc case: 2=12,5,12,5,f
+//tlc case: 2=12,5,12,5,t
+//tlc case: 11=11,57,11,57,f
+//tlc case: 11=11,57,11,57,t
 
-unsigned a;
-unsigned b;
+unsigned x,y;
+signed u,v;
+bool a;
 
-a % b;
+if (a) {
+    x % y;
+}
+else {
+    u % v;
+}
